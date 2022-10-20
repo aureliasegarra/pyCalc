@@ -5,7 +5,7 @@ root = Tk()
 root.title("Python Calculator")
 root.geometry("420x350")
 root.resizable(False, False)
-root.configure(bg="#17161b")
+root.configure(bg="#282C34")
 
 equation = ""
 
@@ -55,7 +55,7 @@ Button(root, text="3", width=5, height=1, font=("arial", 30, "bold"), bd=1, fg="
 Button(root, text="-", width=5, height=1, font=("arial", 30, "bold"), bd=1, fg="#000", bg="#73EDAE", command=lambda: show("-")).place(x=310, y=250)
 
 Button(root, text="0", width=17, height=1, font=("arial", 30, "bold"), bd=1, fg="#000", bg="#73EDAE", command=lambda: show("0")).place(x=10, y=300)
-Button(root, text="=", width=5, height=1, font=("arial", 30, "bold"), bd=1, fg="#000", bg="#73EDAE", command=lambda: calculate()).place(x=310, y=300)
+Button(root, text="=", width=5, height=1, font=("arial", 30, "bold"), bd=1, fg="#000", bg="#3697f5", command=lambda: calculate()).place(x=310, y=300)
 
 
 
