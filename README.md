@@ -28,6 +28,7 @@
     <li><a href="#description">Description</a></li>
     <li><a href="#languages">Languages</a></li>
     <li><a href="#objectives">Objectives</a></li>
+    <li><a href="#setup">Setup</a></li>
     <li><a href="#status">Status</a></li>
     <li><a href="#context">Context</a></li>
   </ol>
@@ -59,6 +60,8 @@
 - Practice basic concepts of Python
 - Practice some functions (eval, configure, bind ...)
 
+## ⚙️ Setup <a id="setup"></a>
+- Run main.py
 
 
 ## 📈 Status <a id="status"></a>
